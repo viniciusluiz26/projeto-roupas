@@ -11,6 +11,7 @@ html, body {
     font-family: 'Inter', sans-serif;
 }
 
+
 .container2 {
     width: 100vw;
     height: 100vh;
@@ -26,3 +27,5 @@ html, body {
     flex-direction: column;
     margin-bottom: 40px;
   }
+
+  

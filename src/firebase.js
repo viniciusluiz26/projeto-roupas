@@ -10,19 +10,18 @@ import 'firebase/compat/functions';   // for cloud functions
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDfmU_GcCW8YnkCke54Gwf9USiRg-p57gM",
-  authDomain: "cadastro-sac.firebaseapp.com",
-  databaseURL: "https://cadastro-sac-default-rtdb.firebaseio.com",
-  projectId: "cadastro-sac",
-  storageBucket: "cadastro-sac.appspot.com",
-  messagingSenderId: "458598414917",
-  appId: "1:458598414917:web:8d54f9188fce5834c7412c",
-  measurementId: "G-XZG8MPCBR6"
+  apiKey: "AIzaSyAZQINy_ZzRoGWdOJipCDmIYYfuXOLOSks",
+  authDomain: "projeto-roupas.firebaseapp.com",
+  databaseURL: "https://projeto-roupas-default-rtdb.firebaseio.com",
+  projectId: "projeto-roupas",
+  storageBucket: "projeto-roupas.appspot.com",
+  messagingSenderId: "926463005388",
+  appId: "1:926463005388:web:baf9450b3e298ab32ae869"
 };
 
 export const fireDb = firebase.initializeApp(firebaseConfig);
 
-export const db = getFirestore(fireDb);
+// export const db = getFirestore(fireDb);
 
 export default fireDb.database().ref()
 
