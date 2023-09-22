@@ -5,6 +5,8 @@ import fireDb, { db } from '../../firebase'
 import Swal from 'sweetalert2'
 import { AuthGoogleContext } from "../../context/authGoogle"
 import { useNavigate } from "react-router-dom"
+import "../styles.css"
+import "../styles.scss"
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -111,7 +113,7 @@ const Cadastro = (props) => {
             <nav id="menu-h">
                 <ul>
                     <li>
-                        <a href="/Cadastro">
+                        <a href="/">
                             Cadastro de Cores
                         </a>
                     </li>
@@ -128,8 +130,7 @@ const Cadastro = (props) => {
                 </ul>
                 <div className="jumbotron bg-dark jumbotron-fluid text-white" id="caixaJumbo">
                     <div className="container3">
-                        <h1 className="display-6 d-block">Cadastro de Cores</h1><br></br>
-                        <button type="button" className="btn btn-outline-danger" onClick={() => signOut()}><strong>Sair</strong></button>
+                        <h1 className="display-6 d-block">Cadastro de Cores</h1><br></br>                        
                     </div>
                 </div>
             </nav>

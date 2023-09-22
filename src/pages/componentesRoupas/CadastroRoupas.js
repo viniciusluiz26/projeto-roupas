@@ -124,7 +124,7 @@ const CadastroRoupas = (props) => {
             <nav id="menu-h">
                 <ul>
                     <li>
-                        <a href="/Cadastro">
+                        <a href="/">
                             Cadastro de Cores
                         </a>
                     </li>
@@ -141,8 +141,7 @@ const CadastroRoupas = (props) => {
                 </ul>
                 <div className="jumbotron bg-dark jumbotron-fluid text-white" id="caixaJumbo">
                     <div className="container3">
-                        <h1 className="display-6 d-block">Cadastro de Roupas</h1><br></br>
-                        <button type="button" className="btn btn-outline-danger" onClick={() => signOut()}><strong>Sair</strong></button>
+                        <h1 className="display-6 d-block">Cadastro de Roupas</h1><br></br>                        
                     </div>
                 </div>
             </nav>
